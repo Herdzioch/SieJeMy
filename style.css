@@ -1,0 +1,142 @@
+* {
+margin: 0;
+padding: 0;
+font-family: Spectral SC, arial;
+box-sizing: border-box;
+}
+
+body {background-color: #ddb;
+
+}
+
+#wrapper {
+max-width: 1500 px;
+margin: 0 auto 0 auto;
+}
+
+header img {
+width: 100%;
+display: block;}
+
+nav {
+	overflow: hidden;
+}
+nav a {
+	display: block;
+	width: 20%;
+	float: left;
+	color: white;
+	background-color: gray;
+	text-align: center;
+	text-decoration: none;
+	padding: 8px 15px;
+	transition: all 1s ease;
+}
+
+
+a.menu:hover {
+background-color: black;
+cursor: pointer;}
+
+.active {
+background-color: black;
+}
+article {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 0 20px;
+}
+
+article h1 {
+	text-align: center;
+	margin: 0 10% 50px 10%;
+	font-size: 40px;
+	padding-bottom: 40px;
+	border-bottom: 3px solid gray;
+}
+
+
+img.left {
+	float: left;
+	margin: 0px 10px 10px 0;
+	width: 30%;
+	border-radius: 50% 30%;
+}
+
+article p {
+	text-align: justify;
+	line-height: 200%;
+	font-size: 20px;
+}
+footer {
+	height: 40px;
+	background-color: grey;
+	margin-top: 120px;
+	line-height: 40px;
+}
+.przedtabela {
+	font-size: 20px;
+	text-align: center;
+	margin: 20px 0;
+}
+.tabela {
+border-top: 3px solid gray;
+padding-left: 500px;
+width: 80%;
+
+.table img {
+	 margin-left: 20px;
+}
+ .microgreens {
+	 font-size: 20px;
+ }
+photo {
+  margin: 10px 0;
+  width: 120px;
+  background: gray;
+  padding: 10px;
+  opacity: 0.7;
+  border-radius: 5px;
+  border: 1px solid silver;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  transform: rotate(5deg);
+  transition: 0.3s all ease-in-out;
+  will-change: transform;
+  align-items: flex-start;
+}
+
+.photo img {
+  width: 400px;
+	flex-basis: 100%;
+}
+
+.photo figcaption {
+  margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+photo:nth-child(even) {
+  transform: rotate(-2deg) scale(0.8);
+}
+
+.photo:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+.galeria {
+	padding-top: 20px;
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.phone {
+	width: 24%;
+	padding-top: 20px;
+
+}
